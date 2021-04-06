@@ -7,17 +7,26 @@
 
 import SwiftUI
 import SwiftySound
+import AVFoundation
 
 struct SongDetail: View {
     var song: Song
     
+    var bombSoundEffect: AVAudioPlayer?
+    
+    @State private var backgroundSound: Sound?
+    
     var body: some View {
-        if let urlPath = Bundle.main.url(forResource: song.source, withExtension: "mp3") {
-            let mySound = Sound(url: urlPath!)
-            mySound?.play()
-        }
-        
         Text(song.name)
+            .onAppear(perform: fetch)
+    }
+    
+    private func fetch() {
+        if let pianoUrl = Bundle.main.url(forResource: song.source, withExtension: "wav") {
+            backgroundSound = Sound(url: pianoUrl)
+            backgroundSound?.volume = 0.8
+            backgroundSound?.prepare()
+        }
     }
 }
 
