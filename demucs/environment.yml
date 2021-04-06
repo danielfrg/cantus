@@ -1,0 +1,28 @@
+name: demucs
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pip
+  - black
+
+  # Model
+  - pytorch=1.6.0
+  - coremltools=4.0
+  # Use this when coremltools 4.1 is out
+  # - pytorch=1.8.0
+  # - coremltools=4.1
+  - onnx
+  - scipy
+  - ffmpeg
+
+  - ipykernel
+
+  - pip:
+    - tqdm==4.36.1
+    - lameenc==1.2.2
+    - musdb==0.3.1
+    - museval==0.3.0
+    - requests==2.22
+    - treetable==0.2.3
