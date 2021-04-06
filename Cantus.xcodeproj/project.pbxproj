@@ -3,19 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D702A3DB0926F95A00A165D /* Pods_Cantus__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DEA0C7F1D853BF49D1C962 /* Pods_Cantus__macOS_.framework */; };
+		AA850786261BDC8100D5DC02 /* SongRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA850785261BDC8100D5DC02 /* SongRows.swift */; };
+		AA850787261BDC8100D5DC02 /* SongRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA850785261BDC8100D5DC02 /* SongRows.swift */; };
+		AA85078D261BDDA000D5DC02 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85078C261BDDA000D5DC02 /* SongList.swift */; };
+		AA85078E261BDDA000D5DC02 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85078C261BDDA000D5DC02 /* SongList.swift */; };
+		AA850792261BDF0C00D5DC02 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA850791261BDF0C00D5DC02 /* SongDetail.swift */; };
+		AA850793261BDF0C00D5DC02 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA850791261BDF0C00D5DC02 /* SongDetail.swift */; };
+		AA850798261BE35700D5DC02 /* Tom McKenzie - Directions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA850796261BE35600D5DC02 /* Tom McKenzie - Directions.mp3 */; };
+		AA850799261BE35700D5DC02 /* Tom McKenzie - Directions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA850796261BE35600D5DC02 /* Tom McKenzie - Directions.mp3 */; };
+		AA85079A261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA850797261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 */; };
+		AA85079B261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA850797261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 */; };
 		AAB48B4D261BCCF100B815B0 /* CantusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B3A261BCCEE00B815B0 /* CantusApp.swift */; };
 		AAB48B4E261BCCF100B815B0 /* CantusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B3A261BCCEE00B815B0 /* CantusApp.swift */; };
 		AAB48B4F261BCCF100B815B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B3B261BCCEE00B815B0 /* ContentView.swift */; };
 		AAB48B50261BCCF100B815B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B3B261BCCEE00B815B0 /* ContentView.swift */; };
 		AAB48B51261BCCF100B815B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB48B3C261BCCF000B815B0 /* Assets.xcassets */; };
 		AAB48B52261BCCF100B815B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB48B3C261BCCF000B815B0 /* Assets.xcassets */; };
+		AAB48B5E261BD25400B815B0 /* demoSongsData.json in Resources */ = {isa = PBXBuildFile; fileRef = AAB48B5D261BD25400B815B0 /* demoSongsData.json */; };
+		AAB48B5F261BD25400B815B0 /* demoSongsData.json in Resources */ = {isa = PBXBuildFile; fileRef = AAB48B5D261BD25400B815B0 /* demoSongsData.json */; };
+		AAB48B65261BD2C200B815B0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B64261BD2C200B815B0 /* Song.swift */; };
+		AAB48B66261BD2C200B815B0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B64261BD2C200B815B0 /* Song.swift */; };
+		AAB48B6C261BD38800B815B0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B6B261BD38800B815B0 /* ModelData.swift */; };
+		AAB48B6D261BD38800B815B0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB48B6B261BD38800B815B0 /* ModelData.swift */; };
+		FDF1D26875CD2490545CE240 /* Pods_Cantus__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F60ABA3471ABC3AAE4AD47 /* Pods_Cantus__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0C0FCF3ED0011D7ADD1176 /* Pods-Cantus (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantus (macOS).release.xcconfig"; path = "Target Support Files/Pods-Cantus (macOS)/Pods-Cantus (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		318DE2DA3C2BC21540E82E7F /* Pods-Cantus (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantus (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Cantus (macOS)/Pods-Cantus (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		54CBBA8B6CDD18E83A0FBC5C /* Pods-Cantus (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantus (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Cantus (iOS)/Pods-Cantus (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		8BA42DB7AC4C5F11975F16D8 /* Pods-Cantus (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantus (iOS).release.xcconfig"; path = "Target Support Files/Pods-Cantus (iOS)/Pods-Cantus (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		A0F60ABA3471ABC3AAE4AD47 /* Pods_Cantus__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cantus__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA850785261BDC8100D5DC02 /* SongRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRows.swift; sourceTree = "<group>"; };
+		AA85078C261BDDA000D5DC02 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		AA850791261BDF0C00D5DC02 /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
+		AA850796261BE35600D5DC02 /* Tom McKenzie - Directions.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tom McKenzie - Directions.mp3"; sourceTree = "<group>"; };
+		AA850797261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bobby Nobody - Stitch Up.mp3"; sourceTree = "<group>"; };
 		AAB48B3A261BCCEE00B815B0 /* CantusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantusApp.swift; sourceTree = "<group>"; };
 		AAB48B3B261BCCEE00B815B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAB48B3C261BCCF000B815B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +52,10 @@
 		AAB48B49261BCCF100B815B0 /* Cantus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cantus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB48B4B261BCCF100B815B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB48B4C261BCCF100B815B0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AAB48B5D261BD25400B815B0 /* demoSongsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demoSongsData.json; sourceTree = "<group>"; };
+		AAB48B64261BD2C200B815B0 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		AAB48B6B261BD38800B815B0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E9DEA0C7F1D853BF49D1C962 /* Pods_Cantus__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cantus__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF1D26875CD2490545CE240 /* Pods_Cantus__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,19 +71,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D702A3DB0926F95A00A165D /* Pods_Cantus__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B30B6542BC1E662C13E39C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0F60ABA3471ABC3AAE4AD47 /* Pods_Cantus__iOS_.framework */,
+				E9DEA0C7F1D853BF49D1C962 /* Pods_Cantus__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA850778261BDB9000D5DC02 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				AAB48B3C261BCCF000B815B0 /* Assets.xcassets */,
+				AAB48B63261BD28000B815B0 /* Model */,
+				AA85077B261BDBA200D5DC02 /* Views */,
+				AAB48B62261BD25B00B815B0 /* Resources */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		AA85077B261BDBA200D5DC02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAB48B3B261BCCEE00B815B0 /* ContentView.swift */,
+				AA850785261BDC8100D5DC02 /* SongRows.swift */,
+				AA85078C261BDDA000D5DC02 /* SongList.swift */,
+				AA850791261BDF0C00D5DC02 /* SongDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AAB48B34261BCCEE00B815B0 = {
 			isa = PBXGroup;
 			children = (
+				AA850778261BDB9000D5DC02 /* Song */,
 				AAB48B39261BCCEE00B815B0 /* Shared */,
 				AAB48B43261BCCF000B815B0 /* iOS */,
 				AAB48B4A261BCCF100B815B0 /* macOS */,
 				AAB48B42261BCCF000B815B0 /* Products */,
+				B8B94D806BC3D41066B461D8 /* Pods */,
+				7B30B6542BC1E662C13E39C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				AAB48B3A261BCCEE00B815B0 /* CantusApp.swift */,
-				AAB48B3B261BCCEE00B815B0 /* ContentView.swift */,
-				AAB48B3C261BCCF000B815B0 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -90,6 +156,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		AAB48B62261BD25B00B815B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA850797261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 */,
+				AA850796261BE35600D5DC02 /* Tom McKenzie - Directions.mp3 */,
+				AAB48B5D261BD25400B815B0 /* demoSongsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAB48B63261BD28000B815B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAB48B64261BD2C200B815B0 /* Song.swift */,
+				AAB48B6B261BD38800B815B0 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8B94D806BC3D41066B461D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54CBBA8B6CDD18E83A0FBC5C /* Pods-Cantus (iOS).debug.xcconfig */,
+				8BA42DB7AC4C5F11975F16D8 /* Pods-Cantus (iOS).release.xcconfig */,
+				318DE2DA3C2BC21540E82E7F /* Pods-Cantus (macOS).debug.xcconfig */,
+				0F0C0FCF3ED0011D7ADD1176 /* Pods-Cantus (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAB48B55261BCCF100B815B0 /* Build configuration list for PBXNativeTarget "Cantus (iOS)" */;
 			buildPhases = (
+				6B465E49D9BCF9440DAE1661 /* [CP] Check Pods Manifest.lock */,
 				AAB48B3D261BCCF000B815B0 /* Sources */,
 				AAB48B3E261BCCF000B815B0 /* Frameworks */,
 				AAB48B3F261BCCF000B815B0 /* Resources */,
+				FFE2D8EA9E047C8B16434D28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAB48B58261BCCF100B815B0 /* Build configuration list for PBXNativeTarget "Cantus (macOS)" */;
 			buildPhases = (
+				069DE0D2239FD413E8B5EA16 /* [CP] Check Pods Manifest.lock */,
 				AAB48B45261BCCF100B815B0 /* Sources */,
 				AAB48B46261BCCF100B815B0 /* Frameworks */,
 				AAB48B47261BCCF100B815B0 /* Resources */,
@@ -168,7 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA85079A261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 in Resources */,
 				AAB48B51261BCCF100B815B0 /* Assets.xcassets in Resources */,
+				AAB48B5E261BD25400B815B0 /* demoSongsData.json in Resources */,
+				AA850798261BE35700D5DC02 /* Tom McKenzie - Directions.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,17 +278,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA85079B261BE35700D5DC02 /* Bobby Nobody - Stitch Up.mp3 in Resources */,
 				AAB48B52261BCCF100B815B0 /* Assets.xcassets in Resources */,
+				AAB48B5F261BD25400B815B0 /* demoSongsData.json in Resources */,
+				AA850799261BE35700D5DC02 /* Tom McKenzie - Directions.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069DE0D2239FD413E8B5EA16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cantus (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B465E49D9BCF9440DAE1661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cantus (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE2D8EA9E047C8B16434D28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cantus (iOS)/Pods-Cantus (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cantus (iOS)/Pods-Cantus (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cantus (iOS)/Pods-Cantus (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AAB48B3D261BCCF000B815B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA85078D261BDDA000D5DC02 /* SongList.swift in Sources */,
+				AA850792261BDF0C00D5DC02 /* SongDetail.swift in Sources */,
+				AAB48B65261BD2C200B815B0 /* Song.swift in Sources */,
+				AAB48B6C261BD38800B815B0 /* ModelData.swift in Sources */,
+				AA850786261BDC8100D5DC02 /* SongRows.swift in Sources */,
 				AAB48B4F261BCCF100B815B0 /* ContentView.swift in Sources */,
 				AAB48B4D261BCCF100B815B0 /* CantusApp.swift in Sources */,
 			);
@@ -196,6 +370,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA85078E261BDDA000D5DC02 /* SongList.swift in Sources */,
+				AA850793261BDF0C00D5DC02 /* SongDetail.swift in Sources */,
+				AAB48B66261BD2C200B815B0 /* Song.swift in Sources */,
+				AAB48B6D261BD38800B815B0 /* ModelData.swift in Sources */,
+				AA850787261BDC8100D5DC02 /* SongRows.swift in Sources */,
 				AAB48B50261BCCF100B815B0 /* ContentView.swift in Sources */,
 				AAB48B4E261BCCF100B815B0 /* CantusApp.swift in Sources */,
 			);
@@ -317,8 +496,8 @@
 		};
 		AAB48B56261BCCF100B815B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CBBA8B6CDD18E83A0FBC5C /* Pods-Cantus (iOS).debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
@@ -338,8 +517,8 @@
 		};
 		AAB48B57261BCCF100B815B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA42DB7AC4C5F11975F16D8 /* Pods-Cantus (iOS).release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
@@ -360,6 +539,7 @@
 		};
 		AAB48B59261BCCF100B815B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318DE2DA3C2BC21540E82E7F /* Pods-Cantus (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -382,6 +562,7 @@
 		};
 		AAB48B5A261BCCF100B815B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0C0FCF3ED0011D7ADD1176 /* Pods-Cantus (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

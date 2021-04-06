@@ -11,7 +11,7 @@ import SwiftUI
 struct CantusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SongList()
         }
     }
 }

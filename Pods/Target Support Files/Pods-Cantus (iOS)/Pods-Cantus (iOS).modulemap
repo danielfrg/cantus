@@ -1,0 +1,6 @@
+framework module Pods_Cantus__iOS_ {
+  umbrella header "Pods-Cantus (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
